@@ -49,19 +49,40 @@ padding: 16px 32px;
     letter-spacing: 5px;
     
 }
+img {
+    max-width: 100%;
+}
+main h2 {
+    font-size: 30px;
+    line-height: 1.5;
+    margin: 0;
+}
+main h3 {
+    font-size: 20px;
+    line-height: 1.5;
+    text-transform: uppercase;
+    opacity: 0.6;
+    margin: 0;
+}
 footer {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url('footer.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
-    padding: 100px 0;
+    
 
 }
 .grid {
     display: grid;
+   grid-gap: 64px;
+    padding: 100px 0;
+}
+.grid-2-col {
+    grid-template-columns: 1fr 1fr;
+}
+.grid-footer {
     grid-template-columns: 1fr 2fr 2fr;
-    grid-gap: 64px;
 }
 footer h3 {
     font-size: 20px;
