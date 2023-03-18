@@ -1,4 +1,6 @@
-
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
 
 .container {
     max-width: 14000px;
@@ -76,13 +78,15 @@ footer {
 .grid {
     display: grid;
    grid-gap: 64px;
-    padding: 100px 0;
+    
 }
 .grid-2-col {
     grid-template-columns: 1fr 1fr;
+    padding: 100px 0;
 }
 .grid-footer {
     grid-template-columns: 1fr 2fr 2fr;
+    padding: 50px 0;
 }
 footer h3 {
     font-size: 20px;
