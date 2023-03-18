@@ -61,6 +61,7 @@ footer {
 .grid {
     display: grid;
     grid-template-columns: 1fr 2fr 2fr;
+    grid-gap: 64px;
 }
 footer h3 {
     font-size: 20px;
@@ -70,7 +71,7 @@ footer h3 {
 footer p {
     font-size: 16px;
     line-height: 1.5;
-    margin-right: 20px;
+    
 
 }
 footer ul {
