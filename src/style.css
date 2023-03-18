@@ -52,7 +52,7 @@ padding: 16px 32px;
     
 }
 img {
-    max-width: 100%;
+    width: 100%;
     display: block;
 }
 section {
@@ -98,7 +98,18 @@ main h3 {
 }
 .card {
     background-color: white;
+    margin: 30pz 0;
     border-radius: 8px;
+}
+.img-card {
+    max-width: 100%;
+}
+.card-header.grid {
+    grid-gap: 0;
+}
+.embed {
+    width: 100%
+    aspect-ratio: 1/1;
 }
 .card-text {
     padding: 10px;
@@ -109,10 +120,7 @@ h4 {
 h5 {
     margin: 0;
 }
-.img-card {
-    max-width: 95%;
-    padding: 10px;
-}
+
 .btn {
     background-color: aquamarine;
     display: block;
